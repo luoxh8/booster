@@ -1,4 +1,4 @@
-package com.smart.webapp.core
+package com.smart.booster.core
 
 import com.smart.booster.core.R
 import lombok.extern.slf4j.Slf4j

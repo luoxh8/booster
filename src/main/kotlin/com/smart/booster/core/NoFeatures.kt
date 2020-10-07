@@ -1,4 +1,4 @@
-package com.smart.webapp.core
+package com.smart.booster.core
 
 import java.util.*
 import javax.validation.constraints.NotNull
