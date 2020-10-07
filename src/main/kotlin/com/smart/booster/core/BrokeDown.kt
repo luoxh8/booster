@@ -5,4 +5,4 @@ package com.smart.webapp.core
  * @Email luoxh8@qq.com
  */
 
-data class BrokeDown( val status: Int? = null, override val message: String? = null) : Exception()
+data class BrokeDown(val status: Int? = null, override val message: String? = null) : Exception()

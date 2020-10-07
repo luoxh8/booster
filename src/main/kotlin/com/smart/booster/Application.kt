@@ -1,6 +1,5 @@
 package com.smart.webapp
 
-import com.smart.webapp.core.BrokeDown
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
@@ -24,6 +23,5 @@ class Application {
 }
 
 fun main(args: Array<String>) {
-    throw BrokeDown(message = "hello world")
-    // runApplication<Application>(*args)
+    runApplication<Application>(*args)
 }
